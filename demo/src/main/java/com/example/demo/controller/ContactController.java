@@ -15,7 +15,7 @@ import com.example.demo.dto.ContactDto;
 import com.example.demo.service.ContactService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8080/")
+@CrossOrigin(origins="https://national-signs.sheebapriya30.workers.dev")
 @RequestMapping("/api/contact")
 public class ContactController {
 	
